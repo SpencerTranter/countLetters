@@ -11,12 +11,12 @@ function countLetters(word){
         obj[splitWord[i]] ++;
       }
     }
-  console.log(obj);
+  return obj;
 
 }
 
 
-countLetters(args);
+console.log(countLetters(args));
 
 
 
